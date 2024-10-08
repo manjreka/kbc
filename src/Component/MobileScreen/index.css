@@ -1,0 +1,38 @@
+.mobile-scr-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(#430873, #751cbd, #5442f5);
+  padding: 15px;
+}
+
+.mobile-scr-container-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 25vh;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px;
+  min-height: 100vh;
+  background-image: linear-gradient(#430873, #751cbd, #5442f5);
+}
+
+.submit-button {
+  background-color: indigo;
+  color: white;
+  padding: 10px;
+  width: 125px;
+  border: none;
+  font-size: 15px;
+}

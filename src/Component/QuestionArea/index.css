@@ -1,0 +1,30 @@
+.options {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.option:active {
+  background-color: indigo;
+}
+
+.option {
+  border: 1px solid gold;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: #170bbd;
+  color: white;
+  width: 35vw;
+  margin: 25px;
+  font-size: 20px;
+}
+
+.question {
+  border: 1px solid gold;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: #170bbd;
+  color: white;
+  margin: 25px;
+  font-size: 25px;
+}

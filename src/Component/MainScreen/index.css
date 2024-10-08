@@ -1,0 +1,19 @@
+.cover-picture {
+  height: 450px;
+  border-radius: 25px;
+}
+
+.main-screen-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(#430873, #751cbd, #5442f5);
+}
+
+.qr-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
